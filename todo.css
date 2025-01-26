@@ -142,7 +142,7 @@ ul li span:hover {
 @media screen and (max-width: 480px) {
   .todo {
     max-width: 100%;
-    padding: 20px 15px 40px;
+    padding: 20px auto 40px;
     margin: 20px auto 15px;
   }
 
