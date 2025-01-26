@@ -39,3 +39,8 @@ function showList() {
 }
 
 showList();
+inputBox.addEventListener("keydown", (event) => {
+  if (event.key === "Enter") {
+    addTask();
+  }
+});
