@@ -48,7 +48,8 @@ input {
   border: none;
   outline: none;
   background: transparent;
-  font-size: 14px;
+  font-size: 14;
+  position: relative;
 }
 
 button {
@@ -60,6 +61,8 @@ button {
   font-size: 16px;
   cursor: pointer;
   border-radius: 40px;
+  position: absolute;
+  right: 0;
 }
 
 ul li {
